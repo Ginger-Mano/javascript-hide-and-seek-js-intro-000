@@ -6,3 +6,11 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   return document.querySelector('#nested .target'); //#nested is an id. # refers to id
 }
+
+function increaseRankBy(n) {
+  const rankedLists = document.querySelectorAll('.ranked-list');
+
+  for (let i = 0, i < rankedLists.length; i++) {
+    rankedLists[i]
+  }
+}
